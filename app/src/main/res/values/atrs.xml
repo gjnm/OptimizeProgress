@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="OptimizeArcProgressBar">
+        <attr name="in_back_color" format="color" />
+        <attr name="in_front_color" format="color" />
+        <attr name="out_back_color" format="color" />
+        <attr name="out_front_color" format="color" />
+        <attr name="in_front_width" format="dimension" />
+        <attr name="out_back_width" format="dimension" />
+        <attr name="current_value" format="float" />
+        <attr name="current_text_size" format="dimension" />
+        <attr name="left_title_text" format="string" />
+        <attr name="right_title_text" format="string" />
+    </declare-styleable>
+
+</resources>

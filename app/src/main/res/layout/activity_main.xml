@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <use.cpu.com.gjnm.optimizeprogress.view.OptimizeArcProgressBar
+        android:id="@+id/bar0"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_gravity="center_horizontal"
+        app:in_front_color="#7eb6e2"
+        app:left_title_text="memory"
+        app:right_title_text="storage"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal">
+
+        <Button
+            android:id="@+id/butt0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="增加" />
+
+        <Button
+            android:id="@+id/butt1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:text="减少" />
+
+        <Button
+            android:id="@+id/butt2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="归零" />
+
+    </LinearLayout>
+
+</LinearLayout>
